@@ -1,0 +1,443 @@
+{
+  "settings": {
+    "currentPage": "index.html",
+    "versionFirst": "2.5.2",
+    "versionPublish": "2.5.2",
+    "name": "prof",
+    "favicon": "images/logo.png",
+    "google-analytics": "UA-70663449-1",
+    "path": "file:///Users/GeertM/Desktop/prof",
+    "screenshot": "screenshot.png"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "Mobirise Mobile Website Builder",
+        "meta_descr": "Free Responsive Website Maker. Create awesome mobile-first websites. Easy and fast - No coding!",
+        "header_custom": "<!-- Paste any valid HTML code here. The code will be inserted to the end of <head> section, right before </head> -->",
+        "footer_custom": "<!-- Paste any valid HTML code here. The code will be inserted to the end of <body> section, right before </body> -->",
+        "analytics": "<!-- Paste google analytics code or any valid JS code here -->"
+      },
+      "components": [
+        {
+          "_name": "menu",
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#a8e1f2"
+            },
+            ".mbr-navbar__section": {
+              "background": "#a8e1f2"
+            }
+          },
+          "_anchor": "menu-0",
+          "_params": {
+            "color": "#a8e1f2",
+            "transparent": false,
+            "sticky": false,
+            "collapsed": false,
+            "logo": false,
+            "showBrand": true,
+            "showButtons": false
+          },
+          "logo": "{PROJECT_IMAGES}logo.png",
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">GEERT MARIJNISSEN</a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"drawings.html\">drawings</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"paintings.html\">paintings</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"objects.html\">objects</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"paintings.html\"></a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"http://mobirise.com\">DOWNLOAD</a></li>"
+        },
+        {
+          "_name": "header1",
+          "_styles": {
+            "P": {
+              "text-align": "left !important"
+            },
+            "H1": {
+              "text-align": "left !important"
+            }
+          },
+          "_anchor": "header1-3",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "bgImage": "{PROJECT_IMAGES}dsc-06396016x4000-141.jpg",
+            "bgColor": "#fad8ff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "width": 1280,
+              "height": 720,
+              "url": "https://www.youtube.com/embed/aECbVP6dm3k?rel=0&autoplay=0&loop=0"
+            },
+            "bgVideoRadio": false,
+            "contentAlign": "left",
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true
+          },
+          "title": "Geert&nbsp;<br>Marijnissen",
+          "text": "Fine arts student",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-default\" href=\"index.html#gallery1-27\" data-toolbar=\"-mbrBtnMove\">Overview<br></a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-default\" href=\"#bottom\" data-toolbar=\"-mbrBtnMove\">Contact</a>"
+        },
+        {
+          "_name": "gallery1",
+          "_params": {
+            "images": [
+              {
+                "thumb": "{PROJECT_IMAGES}10409581-10205706732649202-2014825978423355624-n960x720-125960x720-118.jpg",
+                "image": "{PROJECT_IMAGES}10409581-10205706732649202-2014825978423355624-n960x720-125.jpg",
+                "active": true
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}klein-overzicht6016x4000-1532000x1330-172.jpg",
+                "image": "{PROJECT_IMAGES}klein-overzicht6016x4000-153.jpg",
+                "active": false
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}img-64715184x3456-1952000x1333-193.jpg",
+                "image": "{PROJECT_IMAGES}img-64715184x3456-195.jpg",
+                "active": false
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}2dejaar3648x2736-1392000x1500-178.jpg",
+                "image": "{PROJECT_IMAGES}2dejaar3648x2736-139.jpg",
+                "active": false
+              }
+            ],
+            "bgColor": "#ffffff",
+            "fullWidth": false,
+            "noGutter": false
+          },
+          "_anchor": "gallery1-27",
+          "articleLayout": false
+        },
+        {
+          "_name": "buttons1",
+          "_anchor": "buttons1-17",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"mailto:geertma@gmail.com\" data-toolbar=\"-mbrBtnMove\" target=\"_blank\">geertma at gmail.com<br></a>"
+        }
+      ]
+    },
+    "drawings.html": {
+      "settings": {},
+      "components": [
+        {
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#a8e1f2"
+            },
+            ".mbr-navbar__section": {
+              "background": "#a8e1f2"
+            }
+          },
+          "_name": "menu",
+          "_anchor": "menu-0",
+          "_params": {
+            "color": "#a8e1f2",
+            "transparent": false,
+            "sticky": false,
+            "collapsed": false,
+            "logo": false,
+            "showBrand": true,
+            "showButtons": false
+          },
+          "logo": "{PROJECT_IMAGES}logo.png",
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">GEERT MARIJNISSEN</a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"drawings.html\">drawings</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"paintings.html\">paintings</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"objects.html\">objects</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"paintings.html\"></a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"http://mobirise.com\">DOWNLOAD</a></li>"
+        },
+        {
+          "_name": "header3",
+          "_anchor": "header3-15",
+          "title": "",
+          "_params": {
+            "showMeta": false
+          },
+          "meta": "By John Smith posted July 30, 2015"
+        },
+        {
+          "_inherit": "gallery1",
+          "_name": "gallery2",
+          "_params": {
+            "images": [
+              {
+                "thumb": "{PROJECT_IMAGES}20150415-1527023264x2448-1192000x1500-115.jpg",
+                "image": "{PROJECT_IMAGES}20150415-1527023264x2448-119.jpg",
+                "active": false
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}20150415-1527433264x2448-1752000x1500-199.jpg",
+                "image": "{PROJECT_IMAGES}20150415-1527433264x2448-175.jpg",
+                "active": true
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}tumblr-npw6oljxex1tic1ewo1-540540x692-172540x692-111.jpg",
+                "image": "{PROJECT_IMAGES}tumblr-npw6oljxex1tic1ewo1-540540x692-172.jpg",
+                "active": false
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}img0064956x3508-1782000x1416-169.jpg",
+                "image": "{PROJECT_IMAGES}img0064956x3508-178.jpg",
+                "active": false
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}untitled-21021x1362-1051021x1362-149.jpg",
+                "image": "{PROJECT_IMAGES}untitled-21021x1362-105.jpg",
+                "active": false
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}tumblr-nerw79d7ek1tic1ewo1-540540x381-137540x381-123.jpg",
+                "image": "{PROJECT_IMAGES}tumblr-nerw79d7ek1tic1ewo1-540540x381-137.jpg",
+                "active": false
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}tumblr-nerw79d7ek1tic1ewo2-400400x283-129400x283-163.jpg",
+                "image": "{PROJECT_IMAGES}tumblr-nerw79d7ek1tic1ewo2-400400x283-129.jpg",
+                "active": false
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}tumblr-nerw79d7ek1tic1ewo3-12801280x902-1751280x902-104.jpg",
+                "image": "{PROJECT_IMAGES}tumblr-nerw79d7ek1tic1ewo3-12801280x902-175.jpg",
+                "active": false
+              }
+            ],
+            "fullWidth": false,
+            "noGutter": false
+          },
+          "_anchor": "gallery2-12",
+          "articleLayout": true
+        }
+      ]
+    },
+    "paintings.html": {
+      "settings": {},
+      "components": [
+        {
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#a8e1f2"
+            },
+            ".mbr-navbar__section": {
+              "background": "#a8e1f2"
+            }
+          },
+          "_name": "menu",
+          "_anchor": "menu-0",
+          "_params": {
+            "color": "#a8e1f2",
+            "transparent": false,
+            "sticky": false,
+            "collapsed": false,
+            "logo": false,
+            "showBrand": true,
+            "showButtons": false
+          },
+          "logo": "{PROJECT_IMAGES}logo.png",
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">GEERT MARIJNISSEN</a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"drawings.html\">drawings</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"paintings.html\">paintings</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"objects.html\">objects</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"paintings.html\"></a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"http://mobirise.com\">DOWNLOAD</a></li>"
+        },
+        {
+          "_name": "header1",
+          "_anchor": "header1-18",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "{PROJECT_IMAGES}bg.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "width": 1280,
+              "height": 720,
+              "url": "https://www.youtube.com/embed/aECbVP6dm3k?rel=0&autoplay=0&loop=0"
+            },
+            "bgVideoRadio": true,
+            "contentAlign": "left",
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false,
+            "showArrow": true
+          },
+          "title": "Paintings",
+          "text": "Create awesome mobile-friendly websites. No coding and free.",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg animated fadeInUp delay btn-default\" href=\"http://mobirise.com\" data-toolbar=\"-mbrBtnMove\"></a>"
+        },
+        {
+          "_name": "gallery1",
+          "_params": {
+            "images": [
+              {
+                "thumb": "{PROJECT_IMAGES}11992381-10207546007029912-1010268090-n720x960-172720x960-111.jpg",
+                "image": "{PROJECT_IMAGES}11992381-10207546007029912-1010268090-n720x960-172.jpg",
+                "active": true
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}pink2448x3264-1562000x2667-126.jpg",
+                "image": "{PROJECT_IMAGES}pink2448x3264-156.jpg",
+                "active": false
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}dsc-06436016x4000-1792000x1330-161.jpg",
+                "image": "{PROJECT_IMAGES}dsc-06436016x4000-179.jpg",
+                "active": false
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}dsc-07046016x4000-1222000x1330-113.jpg",
+                "image": "{PROJECT_IMAGES}dsc-07046016x4000-122.jpg",
+                "active": false
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}yellow2176x3264-1622000x3000-165.jpg",
+                "image": "{PROJECT_IMAGES}yellow2176x3264-162.jpg",
+                "active": false
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}tumblr-nft5skptng1tic1ewo1-540540x330-161540x330-108.jpg",
+                "image": "{PROJECT_IMAGES}tumblr-nft5skptng1tic1ewo1-540540x330-161.jpg",
+                "active": false
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}dsc-07076016x4000-1302000x1330-112.jpg",
+                "image": "{PROJECT_IMAGES}dsc-07076016x4000-130.jpg",
+                "active": false
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}naamloos-12920x3704-1742000x2537-178.jpg",
+                "image": "{PROJECT_IMAGES}naamloos-12920x3704-174.jpg",
+                "active": false
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}jaaaaa3742x1039-1332000x555-123.jpg",
+                "image": "{PROJECT_IMAGES}jaaaaa3742x1039-133.jpg",
+                "active": false
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}de-rust-neemt-over5744x4000-1582000x1393-183.jpg",
+                "image": "{PROJECT_IMAGES}de-rust-neemt-over5744x4000-158.jpg",
+                "active": false
+              }
+            ],
+            "bgColor": "#ffffff",
+            "fullWidth": false,
+            "noGutter": false
+          },
+          "_anchor": "gallery1-5",
+          "articleLayout": false
+        }
+      ]
+    },
+    "objects.html": {
+      "settings": {},
+      "components": [
+        {
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#a8e1f2"
+            },
+            ".mbr-navbar__section": {
+              "background": "#a8e1f2"
+            }
+          },
+          "_name": "menu",
+          "_anchor": "menu-0",
+          "_params": {
+            "color": "#a8e1f2",
+            "transparent": false,
+            "sticky": false,
+            "collapsed": false,
+            "logo": false,
+            "showBrand": true,
+            "showButtons": false
+          },
+          "logo": "{PROJECT_IMAGES}logo.png",
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"index.html\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">GEERT MARIJNISSEN</a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"drawings.html\">drawings</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"paintings.html\">paintings</a></li>  <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"objects.html\">objects</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"paintings.html\"></a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"http://mobirise.com\">DOWNLOAD</a></li>"
+        },
+        {
+          "_inherit": "header1",
+          "_name": "header2",
+          "_anchor": "header2-19",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "{PROJECT_IMAGES}bg2.jpg",
+            "bgColor": "#f5b7e4",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "width": 1280,
+              "height": 720,
+              "url": "https://www.youtube.com/embed/S_Tt3YInFdc?rel=0&autoplay=0&loop=0"
+            },
+            "bgVideoRadio": false,
+            "contentAlign": "left",
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showText": false,
+            "showButtons": false,
+            "showArrow": true
+          },
+          "title": "Objects",
+          "text": "Make your own website in a few clicks! Mobirise helps you cut down development<br> time by providing you with a flexible website editor with a drag and drop interface.",
+          "buttons": "<a data-app-btn=\"true\" href=\"http://mobirise.com\" class=\"mbr-buttons__btn btn btn-lg btn-warning animated fadeInUp delay\" data-toolbar=\"-mbrBtnMove\">SIGN UP TODAY</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"http://mobirise.com\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a>"
+        },
+        {
+          "_name": "gallery1",
+          "_params": {
+            "images": [
+              {
+                "thumb": "{PROJECT_IMAGES}11081081-10206211432466382-8647196331411356320-n543x542-178543x542-169.jpg",
+                "image": "{PROJECT_IMAGES}11081081-10206211432466382-8647196331411356320-n543x542-178.jpg",
+                "active": true
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}10409581-10205706732649202-2014825978423355624-n960x720-180960x720-147.jpg",
+                "image": "{PROJECT_IMAGES}10409581-10205706732649202-2014825978423355624-n960x720-180.jpg",
+                "active": false
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}stokpenis4000x6016-1572000x3008-169.jpg",
+                "image": "{PROJECT_IMAGES}stokpenis4000x6016-157.jpg",
+                "active": false
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}tumblr-npw6ukwbo01tic1ewo1-540540x380-163540x380-131.jpg",
+                "image": "{PROJECT_IMAGES}tumblr-npw6ukwbo01tic1ewo1-540540x380-163.jpg",
+                "active": false
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}tumblr-ngf88nssr01tic1ewo2-12801280x853-1631280x853-168.jpg",
+                "image": "{PROJECT_IMAGES}tumblr-ngf88nssr01tic1ewo2-12801280x853-163.jpg",
+                "active": false
+              }
+            ],
+            "bgColor": "#ffffff",
+            "fullWidth": false,
+            "noGutter": false
+          },
+          "_anchor": "gallery1-6",
+          "articleLayout": false
+        }
+      ]
+    }
+  }
+}
